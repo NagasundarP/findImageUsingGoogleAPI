@@ -47,8 +47,9 @@ const AdjectiveAnimalImage = () => {
       alert("Your animal name must be at least 2 characters long");
     }
     if (animal.length > 20) {
-      // alert("Your animal name must be less than 20 characters long");
-      setError("Your animal name must be less than 20 characters long");
+      alert("Your animal name must be less than 20 characters long");
+      // setError("Your animal name must be less than 20 characters long");
+
     }
   };
 
