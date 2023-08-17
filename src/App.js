@@ -1,10 +1,10 @@
 import React from 'react';
 import ImageSearch from './Pages/ImageSearch';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Animal Image Search</h1>
       <ImageSearch />
     </div>
   );
