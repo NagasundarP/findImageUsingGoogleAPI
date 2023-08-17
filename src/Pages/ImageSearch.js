@@ -49,7 +49,6 @@ const AdjectiveAnimalImage = () => {
     if (animal.length > 20) {
       alert("Your animal name must be less than 20 characters long");
       // setError("Your animal name must be less than 20 characters long");
-
     }
   };
 
@@ -62,8 +61,8 @@ const AdjectiveAnimalImage = () => {
           and animal name that you enter.
         </p>
         <p>
-          For example, if you enter "happy" and "dog", it will search for an
-          image of a happy dog.
+          For example, if you enter "dog", it will add an adjective like "happy"
+          to it and search for an image of a "happy dog".
         </p>
         <div>
           <form onSubmit={handleSubmit}>
